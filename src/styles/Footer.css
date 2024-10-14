@@ -1,0 +1,39 @@
+.footer {
+    background-color: rgb(219, 176, 183); /* Light background color */
+    padding: 15px 30px; /* Increased right padding */
+    margin-top: 20px; /* Space above the footer */
+    font-weight: bold;
+}
+
+.footer-headings {
+    text-align: center; /* Center the headings */
+    margin-bottom: 10px; /* Reduced space below the headings */
+}
+
+.footer-section {
+    padding: 5px 0; /* Reduced padding for each section */
+}
+
+.footer-section h5 {
+    font-weight: bold; /* Bold headings */
+    margin-bottom: 5px; /* Reduced space below headings */
+}
+
+.footer-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center the text in the lists */
+}
+
+.footer-links li {
+    margin: 3px 0; /* Reduced space between links */
+}
+
+.footer-links li:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer p {
+    margin: 3px 0; /* Reduced margin for paragraphs */
+    text-align: center; /* Center paragraphs */
+}

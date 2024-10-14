@@ -1,0 +1,35 @@
+.papulorproducts-container {
+  max-width: 100% !important; /* Ensure container takes full width */
+}
+
+.divider {
+  height: 4px; /* Thickness of the line */
+  background-color: green; /* Line color */
+  margin: 10px auto; /* Center the line */
+  width: 30%; /* Decreased width */
+}
+
+.product-details {
+  margin-top: 10px; /* Space above the product info */
+  text-align: center; /* Center-align the text */
+}
+
+.product-details h5 {
+  font-size: 16px; /* Decrease font size for product name */
+  margin: 0; /* Remove default margin */
+}
+
+.product-details p {
+  font-size: 12px; /* Decrease font size for price and sizes */
+  margin: 5px 0; /* Space between price and weight options */
+}
+
+.product-details Button {
+  margin-top: 10px; /* Space above the button */
+}
+
+.text-center-title {
+  text-align: center; /* Center the title */
+}
+
+/* New styles for images */

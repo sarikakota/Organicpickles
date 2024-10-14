@@ -1,0 +1,27 @@
+.scrolling-text {
+    display: inline-block;
+    animation: scroll 10s linear infinite; /* Adjust duration as needed */
+    color: white; /* Text color for the scrolling message */
+    font-weight: bold;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%); /* Start off-screen */
+    }
+    100% {
+        transform: translateX(-100%); /* End off-screen */
+    }
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .top-bar {
+        display: none; /* Hide the top bar on mobile devices */
+    }
+}

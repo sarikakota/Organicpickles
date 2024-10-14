@@ -1,0 +1,33 @@
+.about-us-container {
+    max-width: 100%; /* Ensures full width of the container */
+    padding: 20px; /* Adds some padding */
+  }
+  
+  .about-image-col {
+    display: flex;
+    justify-content: center; /* Center the image */
+    padding: 0; /* Remove padding */
+  }
+  
+  .about-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .about-text-col {
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  h1 {
+    margin-bottom: 15px; /* Space between the heading and the paragraph */
+  }
+  
+  .d-flex {
+    height: 100%; /* Make the flex container take full height */
+  }
+  
+  .align-items-center {
+    display: flex; 
+    align-items: center; /* Align text vertically centered */
+  }
+  

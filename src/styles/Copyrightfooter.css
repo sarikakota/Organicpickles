@@ -1,0 +1,24 @@
+.footer-component { 
+    background-color: rgb(22, 24, 22) !important; /* Set background color to dark */
+    padding: 20px 0; /* Padding for the footer */
+    border-top: 1px solid #478363; /* Top border for separation */
+}
+
+.top-green-line {
+    height: 2px; /* Height of the green line */
+    background-color: darkgreen; /* Darker green for the line */
+    width: 100%; /* Full width */
+}
+
+.footer-container { 
+    max-width: 1200px; /* Example max-width */
+    margin: 0 auto; /* Center the footer container */
+    color: white; /* Change text color to white for better contrast */
+}
+
+.footer-component p { 
+    margin: 0; /* Remove default margins */
+    font-size: 0.9rem; /* Font size for the text */
+    text-align: center; /* Center text */
+    font-weight: bold; /* Make text bold */
+}

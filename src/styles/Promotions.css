@@ -1,0 +1,52 @@
+.promotions {
+    padding: 20px; /* Padding for the promotions section */
+    background-color: #c1aaaa; /* Light background color */
+}
+
+.promotion-item {
+    margin: 10px 0; /* Increased margin for spacing */
+}
+
+.promotion-box {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    background-color: #fff; /* White background for the box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.promotion-box:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.promotion-logo {
+    width: 80px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below logo */
+}
+
+h5 {
+    font-size: 1.2rem; /* Title font size */
+    margin: 0.5rem 0; /* Margin */
+}
+
+p {
+    font-size: 1rem; /* Paragraph font size */
+    margin: 0.3rem 0; /* Margin */
+}
+
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+    .promotion-item {
+        margin: 15px 0; /* More margin for better spacing on tablets */
+    }
+
+    h5 {
+        font-size: 1.1rem; /* Slightly smaller font size for titles */
+    }
+
+    p {
+        font-size: 0.9rem; /* Slightly smaller paragraph font size */
+    }
+}

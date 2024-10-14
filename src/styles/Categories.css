@@ -1,0 +1,21 @@
+.featured-categories {
+    padding: 20px;
+    text-align: center; /* Center the text */
+}
+
+.featured-title {
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 40%; /* Decreased width */
+    height: 5px; /* Thickness of the line */
+    background-color: green; /* Color of the line */
+    margin: 0 auto 20px; /* Center the line and add some bottom margin */
+}
+
+.category-image {
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    /* Adjust this if you want a different shape */
+}

@@ -1,0 +1,21 @@
+.custom-navbar {
+  background-color: rgb(80, 190, 122) !important; /* Override Bootstrap styles */
+}
+
+.navbar-nav {
+   /* Allow nav items to grow and fill space */
+  justify-content: center; /* Center the nav items */
+  margin-left: 20px; /* Space on the left */
+  margin-right: 20px; /* Space on the right */
+}
+
+.navbar-nav .nav-link {
+  color: white; /* Text color for links */
+  padding: 0 15px; /* Adjust horizontal padding for spacing */
+  margin: 0 20px; /* Space between each link */
+  font-weight: bold; /* Make the text bold */
+}
+
+.navbar-toggler {
+  background-color: white; /* Toggler button color (optional) */
+}

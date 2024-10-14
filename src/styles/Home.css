@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Full width class */
+.container-full {
+    width: 100% !important; /* Ensure full width */
+    padding: 0 15px; /* Optional: Add padding for spacing */
+    box-sizing: border-box; /* Include padding in total width */
+  }
+  
+  /* Banner.css */
+.banner-image {
+    width: 100% !important; /* Ensures full width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Papulorproducts.css */
+.carousel-image {
+    width: 100% !important; /* Ensures full width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+  .kids-friendly,
+  .papulorproducts-container,
+  .daily-bestseller-container,
+  .banner-container,
+  .featured-categories {
+    width: 100% !important; /* Ensure each section takes full width */
+  }
+  
+  /* Additional styles for visuals */
+  
+  .text-center-title,
+  .daily-bestseller-title {
+    text-align: center;
+  }
+  .daily-bestseller-title {
+    
+  }
+ 
+  .kids-friendly-title {
+    text-align: left; /* Aligns the title to the left */
+    margin: 0; /* Remove default margins */
+    padding-left: 15px; /* Add padding for spacing */
+}
+
+.banner-container {
+    max-width: 100% !important; /* Ensure maximum width is 100% */
+    width: 100% !important; /* Ensure full width */
+    padding: 0; /* Remove padding if needed */
+}
+
+.carousel-image {
+    width: 100% !important; /* Ensure carousel images take full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+  .divider, .daily-divider {
+    height: 2px;
+    background-color: #28a745; /* Adjust color as needed */
+    margin: 10px auto; /* Center the divider */
+    width: 50%; /* Adjust width of the divider */
+  }
+  
+  .green-line {
+    height: 4px;
+    background-color: green; /* Adjust color as needed */
+    margin: 20px auto; /* Center the line */
+    width: 50%; /* Adjust width of the line */
+  }
+  
+  .product-details {
+    margin-top: 10px;
+  }
+  

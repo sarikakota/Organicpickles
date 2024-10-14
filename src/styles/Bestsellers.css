@@ -1,0 +1,42 @@
+.daily-bestseller-container {
+    text-align: center; /* Center align the content */
+    padding: 20px; /* Padding inside the box */
+    background-color: transparent; /* No background color */
+    max-width: 100% !important; /* Ensure container takes full width */
+}
+
+.daily-divider {
+    border-bottom: 4px solid green; /* Green line */
+    width: 30%; /* Line width */
+    margin: 10px auto; /* Center the line */
+}
+
+.daily-bestseller-title {
+    font-size: 1rem; /* Font size for product title */
+    margin: 0.5rem 0; /* Margin */
+}
+
+.daily-bestseller-price,
+.daily-bestseller-sizes {
+    font-size: 0.8rem; /* Font size for price and sizes */
+    margin: 0.3rem 0; /* Margin */
+}
+
+.daily-custom-green-button {
+    background-color: #448a54; /* Bootstrap success color */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+}
+
+.daily-custom-green-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Add hover effect for images */
+.daily-bestseller-container img {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.daily-bestseller-container img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
